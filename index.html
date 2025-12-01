@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="hero">
+
+    <!-- VIDEO BACKGROUND -->
+    <video autoplay loop muted id="video-background">
+        <source src="1111 v1 innit.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <span class="logo">My Portfolio</span>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="hero-content">
+        <h1>HRIDAYA</h1>
+        <p>Frontend Developer & UI/UX Enthusiast</p>
+    </div>
+
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I’m a frontend developer passionate about clean UI and smooth UX experiences.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill-box">HTML5</div>
+        <div class="skill-box">CSS3</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Flexbox</div>
+        <div class="skill-box">Grid</div>
+        <div class="skill-box">Responsive Design</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div id="projects-grid">
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>A description of your project goes here.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>A description of your project goes here.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Three</h3>
+            <p>A description of your project goes here.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contact-form-id">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div id="form-message"></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Your Name — All Rights Reserved
+</footer>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
